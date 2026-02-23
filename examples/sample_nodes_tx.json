@@ -1,0 +1,1430 @@
+{
+  "h164_version": "1.0-draft",
+  "description": "Sample H.164 service nodes converted from enriched Texas provider data. These are real providers structured against the HIP-1 schema.",
+  "source": "callita_tx_enriched",
+  "node_count": 10,
+  "nodes": [
+    {
+      "version": "1.0-draft",
+      "endpoint": "+17138356069",
+      "entity": {
+        "name": "Priceless Plumbing LLC",
+        "type": "business",
+        "identifiers": {
+          "state_license": "MPL 41004"
+        },
+        "years_in_business": 30
+      },
+      "capabilities": {
+        "primary": {
+          "category": "plumbing",
+          "subcategory": [
+            "drain_cleaning",
+            "fixture_install",
+            "gas_line",
+            "leak_detection",
+            "water_heater"
+          ]
+        }
+      },
+      "coverage": {
+        "zones": [
+          {
+            "type": "coordinates",
+            "center": {
+              "lat": 29.3329014,
+              "lng": -95.035384
+            },
+            "radius_km": 40
+          }
+        ],
+        "mobile": true
+      },
+      "availability": {
+        "tier": 3,
+        "confidence": 0.7,
+        "signal_sources": [
+          "google_listing",
+          "published_hours",
+          "review_activity",
+          "website_active",
+          "bbb_listed",
+          "license_active",
+          "carrier_active"
+        ],
+        "hours": {
+          "timezone": "America/Chicago",
+          "regular": {
+            "mon": {
+              "closed": true
+            },
+            "tue": {
+              "closed": true
+            },
+            "wed": {
+              "closed": true
+            },
+            "thu": {
+              "closed": true
+            },
+            "fri": {
+              "closed": true
+            },
+            "sat": {
+              "closed": true
+            },
+            "sun": {
+              "closed": true
+            }
+          },
+          "emergency_available": false
+        }
+      },
+      "trust": {
+        "composite": 0.55,
+        "interaction_count": 0,
+        "verification_score": 0.55,
+        "decay_rate": 0.005,
+        "last_updated": "2026-02-21T18:24:53.061751+00:00"
+      },
+      "activation": {
+        "methods": [
+          {
+            "type": "voice",
+            "endpoint": "+17138356069",
+            "priority": 1,
+            "ai_receptionist": false
+          },
+          {
+            "type": "sms",
+            "endpoint": "+17138356069",
+            "priority": 2
+          }
+        ],
+        "preferred_channel": "sms"
+      },
+      "listing_basis": "public_listing",
+      "last_verified": "2026-02-21T18:24:53.061751+00:00",
+      "verification": {
+        "carrier_verified": true,
+        "identity_verified": false,
+        "certifications": [
+          {
+            "name": "State License (active)",
+            "issuer": "State of Texas",
+            "license_number": "MPL 41004",
+            "status": "active",
+            "verified_at": "2026-02-21T18:24:53.061751+00:00"
+          },
+          {
+            "name": "BBB Accreditation",
+            "issuer": "Better Business Bureau",
+            "status": "accredited",
+            "verified_at": "2026-02-21T18:24:53.061751+00:00"
+          },
+          {
+            "name": "Insurance Verified",
+            "issuer": "Third-party verification",
+            "status": "active",
+            "verified_at": "2026-02-21T18:24:53.061751+00:00"
+          }
+        ]
+      },
+      "metadata": {
+        "google_rating": 5.0,
+        "google_review_count": 63,
+        "google_place_id": "ChIJ8-Y5w3v8FYQR2dxrhWzye6s",
+        "website": "http://pricelessplumbingllc.com/",
+        "bbb_status": "accredited",
+        "languages": [
+          "en"
+        ],
+        "source": "callita",
+        "callita_id": "c328a04d-e530-458f-86a3-c61459c63127",
+        "metro": "houston"
+      }
+    },
+    {
+      "version": "1.0-draft",
+      "endpoint": "+18325809613",
+      "entity": {
+        "name": "Definite Electric, LLC",
+        "type": "business",
+        "identifiers": {
+          "state_license": "TECL # 30500"
+        },
+        "years_in_business": 10
+      },
+      "capabilities": {
+        "primary": {
+          "category": "electrical",
+          "subcategory": [
+            "panel_upgrade",
+            "surge_protection",
+            "wiring"
+          ]
+        }
+      },
+      "coverage": {
+        "zones": [
+          {
+            "type": "coordinates",
+            "center": {
+              "lat": 29.8021814,
+              "lng": -95.4233225
+            },
+            "radius_km": 40
+          },
+          {
+            "type": "postal_codes",
+            "postal_codes": [
+              "77008"
+            ]
+          }
+        ],
+        "mobile": true
+      },
+      "availability": {
+        "tier": 3,
+        "confidence": 0.7,
+        "signal_sources": [
+          "google_listing",
+          "published_hours",
+          "review_activity",
+          "website_active",
+          "bbb_listed",
+          "license_active",
+          "carrier_active"
+        ],
+        "hours": {
+          "timezone": "America/Chicago",
+          "regular": {
+            "mon": {
+              "open": "00:00",
+              "close": "23:59"
+            },
+            "tue": {
+              "open": "00:00",
+              "close": "23:59"
+            },
+            "wed": {
+              "open": "00:00",
+              "close": "23:59"
+            },
+            "thu": {
+              "open": "00:00",
+              "close": "23:59"
+            },
+            "fri": {
+              "open": "00:00",
+              "close": "23:59"
+            },
+            "sat": {
+              "open": "00:00",
+              "close": "23:59"
+            },
+            "sun": {
+              "open": "00:00",
+              "close": "23:59"
+            }
+          },
+          "emergency_available": true
+        }
+      },
+      "trust": {
+        "composite": 0.55,
+        "interaction_count": 0,
+        "verification_score": 0.55,
+        "decay_rate": 0.005,
+        "last_updated": "2026-02-21T18:24:51.143312+00:00"
+      },
+      "activation": {
+        "methods": [
+          {
+            "type": "voice",
+            "endpoint": "+18325809613",
+            "priority": 1,
+            "ai_receptionist": false
+          },
+          {
+            "type": "sms",
+            "endpoint": "+18325809613",
+            "priority": 2
+          }
+        ],
+        "preferred_channel": "sms"
+      },
+      "listing_basis": "public_listing",
+      "last_verified": "2026-02-21T18:24:51.143312+00:00",
+      "verification": {
+        "carrier_verified": true,
+        "identity_verified": false,
+        "certifications": [
+          {
+            "name": "State License (active)",
+            "issuer": "State of Texas",
+            "license_number": "TECL # 30500",
+            "status": "active",
+            "verified_at": "2026-02-21T18:24:51.143312+00:00"
+          },
+          {
+            "name": "BBB Accreditation",
+            "issuer": "Better Business Bureau",
+            "status": "accredited",
+            "verified_at": "2026-02-21T18:24:51.143312+00:00"
+          },
+          {
+            "name": "Insurance Verified",
+            "issuer": "Third-party verification",
+            "status": "active",
+            "verified_at": "2026-02-21T18:24:51.143312+00:00"
+          }
+        ]
+      },
+      "metadata": {
+        "google_rating": 4.9,
+        "google_review_count": 64,
+        "google_place_id": "ChIJq6qqqrogQYYRQWdH4QFzp9M",
+        "website": "https://www.definiteelectric.com/",
+        "bbb_status": "accredited",
+        "languages": [
+          "en"
+        ],
+        "source": "callita",
+        "callita_id": "c295002f-9687-475f-8e6a-a7b6cb8ad255",
+        "metro": "houston"
+      }
+    },
+    {
+      "version": "1.0-draft",
+      "endpoint": "+12816585141",
+      "entity": {
+        "name": "Ace Comfort Air Conditioning & Heating",
+        "type": "business",
+        "identifiers": {
+          "state_license": "TACLB64349E"
+        },
+        "years_in_business": 10
+      },
+      "capabilities": {
+        "primary": {
+          "category": "hvac",
+          "subcategory": [
+            "ac_install",
+            "ac_repair"
+          ]
+        }
+      },
+      "coverage": {
+        "zones": [
+          {
+            "type": "coordinates",
+            "center": {
+              "lat": 29.8096381,
+              "lng": -95.3636446
+            },
+            "radius_km": 40
+          },
+          {
+            "type": "postal_codes",
+            "postal_codes": [
+              "77009"
+            ]
+          }
+        ],
+        "mobile": true
+      },
+      "availability": {
+        "tier": 3,
+        "confidence": 0.8,
+        "signal_sources": [
+          "google_listing",
+          "published_hours",
+          "high_review_activity",
+          "website_active",
+          "bbb_listed",
+          "license_active",
+          "carrier_active"
+        ],
+        "hours": {
+          "timezone": "America/Chicago",
+          "regular": {
+            "mon": {
+              "open": "00:00",
+              "close": "23:59"
+            },
+            "tue": {
+              "open": "00:00",
+              "close": "23:59"
+            },
+            "wed": {
+              "open": "00:00",
+              "close": "23:59"
+            },
+            "thu": {
+              "open": "00:00",
+              "close": "23:59"
+            },
+            "fri": {
+              "open": "00:00",
+              "close": "23:59"
+            },
+            "sat": {
+              "open": "00:00",
+              "close": "23:59"
+            },
+            "sun": {
+              "closed": true
+            }
+          },
+          "emergency_available": true
+        }
+      },
+      "trust": {
+        "composite": 0.55,
+        "interaction_count": 0,
+        "verification_score": 0.55,
+        "decay_rate": 0.005,
+        "last_updated": "2026-02-21T18:18:33.125209+00:00"
+      },
+      "activation": {
+        "methods": [
+          {
+            "type": "voice",
+            "endpoint": "+12816585141",
+            "priority": 1,
+            "ai_receptionist": false
+          },
+          {
+            "type": "sms",
+            "endpoint": "+12816585141",
+            "priority": 2
+          }
+        ],
+        "preferred_channel": "sms"
+      },
+      "listing_basis": "public_listing",
+      "last_verified": "2026-02-21T18:18:33.125209+00:00",
+      "verification": {
+        "carrier_verified": true,
+        "identity_verified": false,
+        "certifications": [
+          {
+            "name": "State License (active)",
+            "issuer": "State of Texas",
+            "license_number": "TACLB64349E",
+            "status": "active",
+            "verified_at": "2026-02-21T18:18:33.125209+00:00"
+          },
+          {
+            "name": "BBB Accreditation",
+            "issuer": "Better Business Bureau",
+            "status": "accredited",
+            "verified_at": "2026-02-21T18:18:33.125209+00:00"
+          },
+          {
+            "name": "Insurance Verified",
+            "issuer": "Third-party verification",
+            "status": "active",
+            "verified_at": "2026-02-21T18:18:33.125209+00:00"
+          }
+        ]
+      },
+      "metadata": {
+        "google_rating": 4.9,
+        "google_review_count": 176,
+        "google_place_id": "ChIJdfHZ3mxpkk8RjzKMX4A1rsk",
+        "website": "http://www.acecomfort-tx.com/",
+        "bbb_status": "accredited",
+        "payment_methods": [
+          "financing"
+        ],
+        "languages": [
+          "en"
+        ],
+        "source": "callita",
+        "callita_id": "8975f669-0f6e-4696-81f0-224e0c2cbe83",
+        "metro": "houston"
+      }
+    },
+    {
+      "version": "1.0-draft",
+      "endpoint": "+12817381562",
+      "entity": {
+        "name": "MaxResto - Water Damage of Tomball",
+        "type": "business",
+        "identifiers": {
+          "state_license": "5844665"
+        }
+      },
+      "capabilities": {
+        "primary": {
+          "category": "roofing",
+          "subcategory": [
+            "general_roofing"
+          ]
+        }
+      },
+      "coverage": {
+        "zones": [
+          {
+            "type": "coordinates",
+            "center": {
+              "lat": 30.0148873,
+              "lng": -95.5988291
+            },
+            "radius_km": 40
+          },
+          {
+            "type": "postal_codes",
+            "postal_codes": [
+              "77377"
+            ]
+          }
+        ],
+        "mobile": true
+      },
+      "availability": {
+        "tier": 3,
+        "confidence": 0.7,
+        "signal_sources": [
+          "google_listing",
+          "published_hours",
+          "review_activity",
+          "website_active",
+          "bbb_listed",
+          "license_active",
+          "carrier_active"
+        ],
+        "hours": {
+          "timezone": "America/Chicago",
+          "regular": {
+            "mon": {
+              "closed": true
+            },
+            "tue": {
+              "closed": true
+            },
+            "wed": {
+              "closed": true
+            },
+            "thu": {
+              "closed": true
+            },
+            "fri": {
+              "closed": true
+            },
+            "sat": {
+              "closed": true
+            },
+            "sun": {
+              "closed": true
+            }
+          },
+          "emergency_available": false
+        }
+      },
+      "trust": {
+        "composite": 0.55,
+        "interaction_count": 0,
+        "verification_score": 0.55,
+        "decay_rate": 0.005,
+        "last_updated": "2026-02-21T18:22:45.346948+00:00"
+      },
+      "activation": {
+        "methods": [
+          {
+            "type": "voice",
+            "endpoint": "+12817381562",
+            "priority": 1,
+            "ai_receptionist": false
+          },
+          {
+            "type": "sms",
+            "endpoint": "+12817381562",
+            "priority": 2
+          }
+        ],
+        "preferred_channel": "sms"
+      },
+      "listing_basis": "public_listing",
+      "last_verified": "2026-02-21T18:22:45.346948+00:00",
+      "verification": {
+        "carrier_verified": true,
+        "identity_verified": false,
+        "certifications": [
+          {
+            "name": "State License (active)",
+            "issuer": "State of Texas",
+            "license_number": "5844665",
+            "status": "active",
+            "verified_at": "2026-02-21T18:22:45.346948+00:00"
+          },
+          {
+            "name": "BBB Accreditation",
+            "issuer": "Better Business Bureau",
+            "status": "accredited",
+            "verified_at": "2026-02-21T18:22:45.346948+00:00"
+          },
+          {
+            "name": "Insurance Verified",
+            "issuer": "Third-party verification",
+            "status": "active",
+            "verified_at": "2026-02-21T18:22:45.346948+00:00"
+          }
+        ]
+      },
+      "metadata": {
+        "google_rating": 4.9,
+        "google_review_count": 94,
+        "google_place_id": "ChIJ5Xob_vzTQIYRWZ-kNLPawRw",
+        "website": "https://maxresto.com/",
+        "bbb_status": "accredited",
+        "languages": [
+          "en"
+        ],
+        "source": "callita",
+        "callita_id": "ffeb30e2-b7fa-431b-89d4-c33aaa9057d4",
+        "metro": "houston"
+      }
+    },
+    {
+      "version": "1.0-draft",
+      "endpoint": "+17134053747",
+      "entity": {
+        "name": "Mission Wrecker Service \u2013 Car Towing & Heavy Duty Recovery",
+        "type": "business",
+        "years_in_business": 20
+      },
+      "capabilities": {
+        "primary": {
+          "category": "towing",
+          "subcategory": [
+            "emergency_tow"
+          ]
+        }
+      },
+      "coverage": {
+        "zones": [
+          {
+            "type": "coordinates",
+            "center": {
+              "lat": 29.8838392,
+              "lng": -95.6217635
+            },
+            "radius_km": 40
+          },
+          {
+            "type": "postal_codes",
+            "postal_codes": [
+              "77095"
+            ]
+          }
+        ],
+        "mobile": true
+      },
+      "availability": {
+        "tier": 3,
+        "confidence": 0.7,
+        "signal_sources": [
+          "google_listing",
+          "published_hours",
+          "high_review_activity",
+          "website_active",
+          "bbb_listed",
+          "carrier_active"
+        ],
+        "hours": {
+          "timezone": "America/Chicago",
+          "regular": {
+            "mon": {
+              "closed": true
+            },
+            "tue": {
+              "closed": true
+            },
+            "wed": {
+              "closed": true
+            },
+            "thu": {
+              "closed": true
+            },
+            "fri": {
+              "closed": true
+            },
+            "sat": {
+              "closed": true
+            },
+            "sun": {
+              "closed": true
+            }
+          },
+          "emergency_available": false
+        }
+      },
+      "trust": {
+        "composite": 0.4,
+        "interaction_count": 0,
+        "verification_score": 0.4,
+        "decay_rate": 0.005,
+        "last_updated": "2026-02-21T18:09:55.209239+00:00"
+      },
+      "activation": {
+        "methods": [
+          {
+            "type": "voice",
+            "endpoint": "+17134053747",
+            "priority": 1,
+            "ai_receptionist": false
+          },
+          {
+            "type": "sms",
+            "endpoint": "+17134053747",
+            "priority": 2
+          }
+        ],
+        "preferred_channel": "sms"
+      },
+      "listing_basis": "public_listing",
+      "last_verified": "2026-02-21T18:09:55.209239+00:00",
+      "verification": {
+        "carrier_verified": true,
+        "identity_verified": false,
+        "certifications": [
+          {
+            "name": "BBB Accreditation",
+            "issuer": "Better Business Bureau",
+            "status": "accredited",
+            "verified_at": "2026-02-21T18:09:55.209239+00:00"
+          },
+          {
+            "name": "Insurance Verified",
+            "issuer": "Third-party verification",
+            "status": "active",
+            "verified_at": "2026-02-21T18:09:55.209239+00:00"
+          }
+        ]
+      },
+      "metadata": {
+        "google_rating": 4.9,
+        "google_review_count": 2350,
+        "google_place_id": "ChIJXxafNCjRQIYRUUyV7iT-bl0",
+        "website": "https://missionwrecker.com/houston/",
+        "bbb_status": "accredited",
+        "languages": [
+          "en"
+        ],
+        "source": "callita",
+        "callita_id": "ab683c1f-f922-4a8a-8440-300ae5649d36",
+        "metro": "houston"
+      }
+    },
+    {
+      "version": "1.0-draft",
+      "endpoint": "+18325091200",
+      "entity": {
+        "name": "Singular Home Inspections",
+        "type": "business",
+        "identifiers": {
+          "state_license": "0845207"
+        },
+        "years_in_business": 5
+      },
+      "capabilities": {
+        "primary": {
+          "category": "pest_control",
+          "subcategory": [
+            "general"
+          ]
+        }
+      },
+      "coverage": {
+        "zones": [
+          {
+            "type": "coordinates",
+            "center": {
+              "lat": 29.846844,
+              "lng": -95.5190935
+            },
+            "radius_km": 40
+          }
+        ],
+        "mobile": true
+      },
+      "availability": {
+        "tier": 3,
+        "confidence": 0.8,
+        "signal_sources": [
+          "google_listing",
+          "published_hours",
+          "high_review_activity",
+          "website_active",
+          "bbb_listed",
+          "license_active",
+          "carrier_active"
+        ],
+        "hours": {
+          "timezone": "America/Chicago",
+          "regular": {
+            "mon": {
+              "open": "08:00",
+              "close": "19:00"
+            },
+            "tue": {
+              "open": "08:00",
+              "close": "19:00"
+            },
+            "wed": {
+              "open": "08:00",
+              "close": "19:00"
+            },
+            "thu": {
+              "open": "08:00",
+              "close": "19:00"
+            },
+            "fri": {
+              "open": "08:00",
+              "close": "19:00"
+            },
+            "sat": {
+              "open": "10:00",
+              "close": "16:00"
+            },
+            "sun": {
+              "open": "10:00",
+              "close": "16:00"
+            }
+          },
+          "emergency_available": false
+        }
+      },
+      "trust": {
+        "composite": 0.55,
+        "interaction_count": 0,
+        "verification_score": 0.55,
+        "decay_rate": 0.005,
+        "last_updated": "2026-02-21T18:17:48.16196+00:00"
+      },
+      "activation": {
+        "methods": [
+          {
+            "type": "voice",
+            "endpoint": "+18325091200",
+            "priority": 1,
+            "ai_receptionist": false
+          },
+          {
+            "type": "sms",
+            "endpoint": "+18325091200",
+            "priority": 2
+          }
+        ],
+        "preferred_channel": "sms"
+      },
+      "listing_basis": "public_listing",
+      "last_verified": "2026-02-21T18:17:48.16196+00:00",
+      "verification": {
+        "carrier_verified": true,
+        "identity_verified": false,
+        "certifications": [
+          {
+            "name": "State License (active)",
+            "issuer": "State of Texas",
+            "license_number": "0845207",
+            "status": "active",
+            "verified_at": "2026-02-21T18:17:48.16196+00:00"
+          },
+          {
+            "name": "BBB Accreditation",
+            "issuer": "Better Business Bureau",
+            "status": "accredited",
+            "verified_at": "2026-02-21T18:17:48.16196+00:00"
+          },
+          {
+            "name": "Insurance Verified",
+            "issuer": "Third-party verification",
+            "status": "active",
+            "verified_at": "2026-02-21T18:17:48.16196+00:00"
+          }
+        ]
+      },
+      "metadata": {
+        "google_rating": 5.0,
+        "google_review_count": 201,
+        "google_place_id": "ChIJv3FmuVjZQIYRjbpQ9L1tnJs",
+        "website": "http://www.singularinspections.com/",
+        "bbb_status": "accredited",
+        "languages": [
+          "en"
+        ],
+        "source": "callita",
+        "callita_id": "14d1d02f-7011-40f1-871a-32a2552dfe54",
+        "metro": "portland"
+      }
+    },
+    {
+      "version": "1.0-draft",
+      "endpoint": "+18328000045",
+      "entity": {
+        "name": "Quick Auto Glass_ Sunroof & Tint",
+        "type": "business",
+        "years_in_business": 15
+      },
+      "capabilities": {
+        "primary": {
+          "category": "automotive",
+          "subcategory": [
+            "auto_glass_repair",
+            "auto_glass_replacement"
+          ]
+        }
+      },
+      "coverage": {
+        "zones": [
+          {
+            "type": "coordinates",
+            "center": {
+              "lat": 29.7694292,
+              "lng": -95.3930389
+            },
+            "radius_km": 40
+          },
+          {
+            "type": "postal_codes",
+            "postal_codes": [
+              "77007"
+            ]
+          }
+        ],
+        "mobile": true
+      },
+      "availability": {
+        "tier": 3,
+        "confidence": 0.7,
+        "signal_sources": [
+          "google_listing",
+          "published_hours",
+          "high_review_activity",
+          "website_active",
+          "bbb_listed",
+          "carrier_active"
+        ],
+        "hours": {
+          "timezone": "America/Chicago",
+          "regular": {
+            "mon": {
+              "open": "00:00",
+              "close": "23:59"
+            },
+            "tue": {
+              "open": "00:00",
+              "close": "23:59"
+            },
+            "wed": {
+              "open": "00:00",
+              "close": "23:59"
+            },
+            "thu": {
+              "open": "00:00",
+              "close": "23:59"
+            },
+            "fri": {
+              "open": "00:00",
+              "close": "23:59"
+            },
+            "sat": {
+              "open": "00:00",
+              "close": "23:59"
+            },
+            "sun": {
+              "open": "00:00",
+              "close": "23:59"
+            }
+          },
+          "emergency_available": true
+        }
+      },
+      "trust": {
+        "composite": 0.4,
+        "interaction_count": 0,
+        "verification_score": 0.4,
+        "decay_rate": 0.005,
+        "last_updated": "2026-02-21T18:17:47.850567+00:00"
+      },
+      "activation": {
+        "methods": [
+          {
+            "type": "voice",
+            "endpoint": "+18328000045",
+            "priority": 1,
+            "ai_receptionist": false
+          },
+          {
+            "type": "sms",
+            "endpoint": "+18328000045",
+            "priority": 2
+          }
+        ],
+        "preferred_channel": "sms"
+      },
+      "listing_basis": "public_listing",
+      "last_verified": "2026-02-21T18:17:47.850567+00:00",
+      "verification": {
+        "carrier_verified": true,
+        "identity_verified": false,
+        "certifications": [
+          {
+            "name": "BBB Accreditation",
+            "issuer": "Better Business Bureau",
+            "status": "accredited",
+            "verified_at": "2026-02-21T18:17:47.850567+00:00"
+          },
+          {
+            "name": "Insurance Verified",
+            "issuer": "Third-party verification",
+            "status": "active",
+            "verified_at": "2026-02-21T18:17:47.850567+00:00"
+          }
+        ]
+      },
+      "metadata": {
+        "google_rating": 4.8,
+        "google_review_count": 202,
+        "google_place_id": "ChIJbaZp69G_QIYR57NvVwUCoyw",
+        "website": "http://www.quickautoglass.net/",
+        "bbb_status": "accredited",
+        "languages": [
+          "en"
+        ],
+        "source": "callita",
+        "callita_id": "7af888f1-c9d6-465c-809d-a8981e20c5c4",
+        "metro": "houston"
+      }
+    },
+    {
+      "version": "1.0-draft",
+      "endpoint": "+12819717770",
+      "entity": {
+        "name": "OGD Overhead Garage Door",
+        "type": "business"
+      },
+      "capabilities": {
+        "primary": {
+          "category": "garage_door",
+          "subcategory": [
+            "repair",
+            "installation"
+          ]
+        }
+      },
+      "coverage": {
+        "zones": [
+          {
+            "type": "coordinates",
+            "center": {
+              "lat": 29.7608675,
+              "lng": -95.6055831
+            },
+            "radius_km": 40
+          },
+          {
+            "type": "postal_codes",
+            "postal_codes": [
+              "77077"
+            ]
+          }
+        ],
+        "mobile": true
+      },
+      "availability": {
+        "tier": 3,
+        "confidence": 0.7,
+        "signal_sources": [
+          "google_listing",
+          "published_hours",
+          "high_review_activity",
+          "website_active",
+          "bbb_listed",
+          "carrier_active"
+        ],
+        "hours": {
+          "timezone": "America/Chicago",
+          "regular": {
+            "mon": {
+              "closed": true
+            },
+            "tue": {
+              "closed": true
+            },
+            "wed": {
+              "closed": true
+            },
+            "thu": {
+              "closed": true
+            },
+            "fri": {
+              "closed": true
+            },
+            "sat": {
+              "closed": true
+            },
+            "sun": {
+              "closed": true
+            }
+          },
+          "emergency_available": false
+        }
+      },
+      "trust": {
+        "composite": 0.4,
+        "interaction_count": 0,
+        "verification_score": 0.4,
+        "decay_rate": 0.005,
+        "last_updated": "2026-02-21T18:11:15.634297+00:00"
+      },
+      "activation": {
+        "methods": [
+          {
+            "type": "voice",
+            "endpoint": "+12819717770",
+            "priority": 1,
+            "ai_receptionist": false
+          },
+          {
+            "type": "sms",
+            "endpoint": "+12819717770",
+            "priority": 2
+          }
+        ],
+        "preferred_channel": "sms"
+      },
+      "listing_basis": "public_listing",
+      "last_verified": "2026-02-21T18:11:15.634297+00:00",
+      "verification": {
+        "carrier_verified": true,
+        "identity_verified": false,
+        "certifications": [
+          {
+            "name": "BBB Accreditation",
+            "issuer": "Better Business Bureau",
+            "status": "accredited",
+            "verified_at": "2026-02-21T18:11:15.634297+00:00"
+          },
+          {
+            "name": "Insurance Verified",
+            "issuer": "Third-party verification",
+            "status": "active",
+            "verified_at": "2026-02-21T18:11:15.634297+00:00"
+          }
+        ]
+      },
+      "metadata": {
+        "google_rating": 4.7,
+        "google_review_count": 919,
+        "google_place_id": "ChIJtdgZu_rHQIYRc4aTTzMqJYA",
+        "website": "https://ogd.com/tx/houston/%3Futm_source%3Dgmb%26utm_medium%3Dorganic%26utm_campaign%3Dogd-hou-01%26ogd_src%3Dogd-hou-01-google_business_profile",
+        "bbb_status": "accredited",
+        "languages": [
+          "en"
+        ],
+        "source": "callita",
+        "callita_id": "dbc214b0-34db-4ea1-aff8-4ab5a8414438",
+        "metro": "houston"
+      }
+    },
+    {
+      "version": "1.0-draft",
+      "endpoint": "+12816231517",
+      "entity": {
+        "name": "Scorpion Locksmith Houston",
+        "type": "business"
+      },
+      "capabilities": {
+        "primary": {
+          "category": "locksmith",
+          "subcategory": [
+            "emergency_lockout",
+            "rekey"
+          ]
+        }
+      },
+      "coverage": {
+        "zones": [
+          {
+            "type": "coordinates",
+            "center": {
+              "lat": 29.734521,
+              "lng": -95.4047693
+            },
+            "radius_km": 40
+          },
+          {
+            "type": "postal_codes",
+            "postal_codes": [
+              "77098"
+            ]
+          }
+        ],
+        "mobile": true
+      },
+      "availability": {
+        "tier": 3,
+        "confidence": 0.8,
+        "signal_sources": [
+          "google_listing",
+          "published_hours",
+          "high_review_activity",
+          "website_active",
+          "bbb_listed",
+          "license_active",
+          "carrier_active"
+        ],
+        "hours": {
+          "timezone": "America/Chicago",
+          "regular": {
+            "mon": {
+              "closed": true
+            },
+            "tue": {
+              "closed": true
+            },
+            "wed": {
+              "closed": true
+            },
+            "thu": {
+              "closed": true
+            },
+            "fri": {
+              "closed": true
+            },
+            "sat": {
+              "closed": true
+            },
+            "sun": {
+              "closed": true
+            }
+          },
+          "emergency_available": false
+        }
+      },
+      "trust": {
+        "composite": 0.55,
+        "interaction_count": 0,
+        "verification_score": 0.55,
+        "decay_rate": 0.005,
+        "last_updated": "2026-02-21T18:15:37.633121+00:00"
+      },
+      "activation": {
+        "methods": [
+          {
+            "type": "voice",
+            "endpoint": "+12816231517",
+            "priority": 1,
+            "ai_receptionist": false
+          },
+          {
+            "type": "sms",
+            "endpoint": "+12816231517",
+            "priority": 2
+          }
+        ],
+        "preferred_channel": "sms"
+      },
+      "listing_basis": "public_listing",
+      "last_verified": "2026-02-21T18:15:37.633121+00:00",
+      "verification": {
+        "carrier_verified": true,
+        "identity_verified": false,
+        "certifications": [
+          {
+            "name": "State License (active)",
+            "issuer": "State of Texas",
+            "license_number": "",
+            "status": "active",
+            "verified_at": "2026-02-21T18:15:37.633121+00:00"
+          },
+          {
+            "name": "BBB Accreditation",
+            "issuer": "Better Business Bureau",
+            "status": "accredited",
+            "verified_at": "2026-02-21T18:15:37.633121+00:00"
+          },
+          {
+            "name": "Insurance Verified",
+            "issuer": "Third-party verification",
+            "status": "active",
+            "verified_at": "2026-02-21T18:15:37.633121+00:00"
+          }
+        ]
+      },
+      "metadata": {
+        "google_rating": 4.8,
+        "google_review_count": 306,
+        "google_place_id": "ChIJp0edvrvBQIYRM3Ur5ujBOqc",
+        "website": "http://scorpionlocksmithhouston.com/",
+        "bbb_status": "accredited",
+        "payment_methods": [
+          "cash",
+          "credit-card",
+          "debit-card",
+          "check"
+        ],
+        "languages": [
+          "en"
+        ],
+        "source": "callita",
+        "callita_id": "5960427e-14cd-4469-bb93-4de3eb4869e5",
+        "metro": "houston"
+      }
+    },
+    {
+      "version": "1.0-draft",
+      "endpoint": "+17135395173",
+      "entity": {
+        "name": "Water Pro Well Service (Water Well Service)",
+        "type": "business",
+        "identifiers": {
+          "state_license": "4004757"
+        },
+        "years_in_business": 25
+      },
+      "capabilities": {
+        "primary": {
+          "category": "plumbing",
+          "subcategory": [
+            "general_plumbing"
+          ]
+        }
+      },
+      "coverage": {
+        "zones": [
+          {
+            "type": "coordinates",
+            "center": {
+              "lat": 29.7825555,
+              "lng": -95.8296204
+            },
+            "radius_km": 40
+          },
+          {
+            "type": "postal_codes",
+            "postal_codes": [
+              "77494"
+            ]
+          }
+        ],
+        "mobile": true
+      },
+      "availability": {
+        "tier": 3,
+        "confidence": 0.7,
+        "signal_sources": [
+          "google_listing",
+          "published_hours",
+          "review_activity",
+          "website_active",
+          "bbb_listed",
+          "license_active",
+          "carrier_active"
+        ],
+        "hours": {
+          "timezone": "America/Chicago",
+          "regular": {
+            "mon": {
+              "open": "00:00",
+              "close": "23:59"
+            },
+            "tue": {
+              "open": "00:00",
+              "close": "23:59"
+            },
+            "wed": {
+              "open": "00:00",
+              "close": "23:59"
+            },
+            "thu": {
+              "open": "00:00",
+              "close": "23:59"
+            },
+            "fri": {
+              "open": "00:00",
+              "close": "23:59"
+            },
+            "sat": {
+              "open": "00:00",
+              "close": "23:59"
+            },
+            "sun": {
+              "open": "00:00",
+              "close": "23:59"
+            }
+          },
+          "emergency_available": true
+        }
+      },
+      "trust": {
+        "composite": 0.55,
+        "interaction_count": 0,
+        "verification_score": 0.55,
+        "decay_rate": 0.005,
+        "last_updated": "2026-02-21T18:26:32.590172+00:00"
+      },
+      "activation": {
+        "methods": [
+          {
+            "type": "voice",
+            "endpoint": "+17135395173",
+            "priority": 1,
+            "ai_receptionist": false
+          },
+          {
+            "type": "sms",
+            "endpoint": "+17135395173",
+            "priority": 2
+          }
+        ],
+        "preferred_channel": "sms"
+      },
+      "listing_basis": "public_listing",
+      "last_verified": "2026-02-21T18:26:32.590172+00:00",
+      "verification": {
+        "carrier_verified": true,
+        "identity_verified": false,
+        "certifications": [
+          {
+            "name": "State License (active)",
+            "issuer": "State of Texas",
+            "license_number": "4004757",
+            "status": "active",
+            "verified_at": "2026-02-21T18:26:32.590172+00:00"
+          },
+          {
+            "name": "BBB Accreditation",
+            "issuer": "Better Business Bureau",
+            "status": "accredited",
+            "verified_at": "2026-02-21T18:26:32.590172+00:00"
+          },
+          {
+            "name": "Insurance Verified",
+            "issuer": "Third-party verification",
+            "status": "active",
+            "verified_at": "2026-02-21T18:26:32.590172+00:00"
+          }
+        ]
+      },
+      "metadata": {
+        "google_rating": 4.9,
+        "google_review_count": 50,
+        "google_place_id": "ChIJma0A5mMnQYYR3Aw5n3htyMY",
+        "website": "http://www.waterprowellservice.com/",
+        "bbb_status": "accredited",
+        "languages": [
+          "en"
+        ],
+        "source": "callita",
+        "callita_id": "4ea7327b-bd41-45b8-8fa5-88ec34ef13aa",
+        "metro": "houston"
+      }
+    }
+  ]
+}
