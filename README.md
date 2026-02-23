@@ -1,3 +1,5 @@
+> **H.164 is now live in draft form.** Read the vision ([HIP-0](https://github.com/h164-protocol/spec/blob/main/HIPs/HIP-0.md)) then the schemas ([HIP-1](https://github.com/h164-protocol/spec/blob/main/HIPs/HIP-1.md)). First vertical: home trades. Seed index launching Q2 2026.
+
 # H.164 Protocol
 
 **The Human Endpoint Resolution Layer for the Agent Economy**
@@ -111,8 +113,8 @@ The protocol evolves through **HIPs** (H.164 Improvement Proposals), following t
 
 | HIP | Title | Status |
 |-----|-------|--------|
-| HIP-0 | Protocol Vision & Manifesto | Draft |
-| HIP-1 | Node Schema Specification | Draft |
+| [HIP-0](HIPs/HIP-0.md) | Protocol Vision & Manifesto | Draft |
+| [HIP-1](HIPs/HIP-1.md) | Node Schema Specification | Draft |
 | HIP-2 | Interaction Event Schema | Planned |
 | HIP-3 | Bidirectional Trust Framework | Planned |
 | HIP-4 | Availability Tiering Model | Planned |
